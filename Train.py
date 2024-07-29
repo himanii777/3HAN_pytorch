@@ -81,8 +81,8 @@ def train(opt):
     plt.show()
 
 class Options():
-    fake_news_path=r"C:\Users\Himani\Desktop\Main Files\DL projects\3HAN\3HAN\Fake.csv"
-    true_news_path=r"C:\Users\Himani\Desktop\Main Files\DL projects\3HAN\3HAN\True.csv"
+    fake_news_path=r"fake data path"
+    true_news_path=r"true data path"
     max_word_fake, max_sent_fake =get_max_lengths(fake_news_path) #max words, max sentence
     max_word_true, max_sent_true=get_max_lengths(true_news_path)
     max_sentence_length= max(max_sent_fake, max_sent_true)
