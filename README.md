@@ -23,13 +23,16 @@ python Train.py
 # Results
 <img width="386" alt="image" src="https://github.com/user-attachments/assets/fdac8256-b8c9-4e33-8859-c6c02809503c">
 
-Breakdown of the Confusion Matrix
+Breakdown of the Confusion Matrix ---->
+
 True Positives (TP): 115,682 (bottom right)
+
 True Negatives (TN): 114,152 (top left)
-False Positives (FP): 5,348 (top right) 
+
+False Positives (FP): 5,348 (top right)
+
 False Negatives (FN): 4,818 (bottom left) 
 
-Performance Analysis
 Accuracy: The overall accuracy of the model is (TP + TN) / Total = (115,682 + 114,152) / (115,682 + 114,152 + 5,348 + 4,818) ≈ 0.957. SO about 95.7% of the predictions were correct.
 
 Precision (True Class):  TP / (TP + FP) = 115,682 / (115,682 + 5,348) ≈ 0.956
